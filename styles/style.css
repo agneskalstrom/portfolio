@@ -51,8 +51,8 @@ a:link, a:visited, a:active {
 .divider {
   background-color: #222;
   width: 20vw;
-  height: .2em;
-  margin: 2em auto 2em;
+  height: 2px;
+  margin: 0 auto 0;
 }
 
 /* Sidebar */
@@ -104,6 +104,14 @@ a:link, a:visited, a:active {
 .intro p {
   margin: auto;
   margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.fulldivider {
+  background-color: #222;
+  width: 100%;
+  height: 2px;
+  margin: 0 auto 0;
 }
 
 nav {
@@ -113,8 +121,6 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 2em;
-  border-left: 1em solid #222;
-  border-right: 1em solid #eee;
 }
 
 nav ul {
@@ -198,6 +204,7 @@ main {
 /* Work section */
 #work {
   padding: 2em;
+  margin-bottom: 2em;
 }
 
 .work-grid {
@@ -308,6 +315,8 @@ main {
 /* About section */
 #about {
   padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .about-grid {
@@ -331,6 +340,7 @@ main {
   padding: 2em;
   text-align: center;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 form {
@@ -478,7 +488,7 @@ footer p {
     width: 50vw;
   }
   .divider {
-    width: 50vw;
+    width: 30vw;
   }
 }
 
@@ -505,10 +515,16 @@ footer p {
   h1 {
     font-size: 5.6vw;
   }
+  .intro p {
+    text-align: center;
+  }
   main {
     width: 100vw;
   }
   .formfield {
+    width: 60vw;
+  }
+  .divider, .fulldivider {
     width: 60vw;
   }
 }

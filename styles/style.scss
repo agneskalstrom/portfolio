@@ -54,8 +54,8 @@ a:link, a:visited, a:active {
 .divider {
     background-color: $accent;
     width: 20vw;
-    height: .2em;
-    margin: 2em auto 2em;
+    height: 2px;
+    margin: 0 auto 0;
 }
 
 /* Sidebar */
@@ -104,6 +104,14 @@ a:link, a:visited, a:active {
 .intro p {
     margin: auto;
     margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.fulldivider {
+    background-color: $accent;
+    width: 100%;
+    height: 2px;
+    margin: 0 auto 0;
 }
 
 nav {
@@ -112,8 +120,6 @@ nav {
     text-align: center;
     position: sticky;
     top: 2em;
-    border-left: 1em solid $accent;
-    border-right: 1em solid $primary;
 }
 
 nav ul {
@@ -186,6 +192,7 @@ main {
 
 #work {
     padding: 2em;
+    margin-bottom: 2em;
 }
 
 .work-grid {
@@ -276,6 +283,8 @@ main {
 
 #about {
     padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .about-grid {
@@ -298,6 +307,7 @@ main {
     padding: 2em;
     text-align: center;
     margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 form {
@@ -440,7 +450,7 @@ footer p {
     }
 
     .divider {
-        width: 50vw;
+        width: 30vw;
     }
 }
 
@@ -473,11 +483,19 @@ footer p {
         font-size: 5.6vw;
     }
 
+    .intro p {
+        text-align: center;
+    }
+
     main {
         width: 100vw;
     }
 
     .formfield {
+        width: 60vw;
+    }
+
+    .divider, .fulldivider {
         width: 60vw;
     }
 }
