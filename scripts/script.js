@@ -14,5 +14,4 @@ function swapStyleSheet() {
     pageStyle.href = './styles/' + pageStyle.x + '.css';
     let selectedSheet = pageStyle.getAttribute("href");
     localStorage.setItem("lastActiveSheet", selectedSheet);
-    console.log(selectedSheet);
 }
