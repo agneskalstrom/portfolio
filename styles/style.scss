@@ -6,12 +6,14 @@ $heading: Oswald, sans-serif;
 
 html {
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 body {
     background-color: $primary;
     color: $accent;
     font-family: 'Helvetica Neue', sans-serif;
+    max-width: 100%;
 }
 
 h1 {

@@ -1,12 +1,14 @@
 /* General settings */
 html {
   scroll-behavior: smooth;
+  width: 100vw;
 }
 
 body {
   background-color: #eee;
   color: #222;
   font-family: 'Helvetica Neue', sans-serif;
+  max-width: 100%;
 }
 
 h1 {
